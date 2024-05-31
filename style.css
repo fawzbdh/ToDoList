@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #fce6f2;
+    /* Rose pâle */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #ff69b4;
+    /* Rose vif */
+  }
+  
+  #task-input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    /* Alignement des éléments sur la ligne avec un espace entre */
+    align-items: center;
+    /* Alignement vertical des éléments au centre */
+  }
+  
+  .delete-button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* Ajoute une marge à gauche pour espacer le bouton de suppression */
+  }
+  
+  
+  .delete-button:hover {
+    background-color: #ff4f94;
+    /* Rose plus foncé au survol */
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #ccc;
+    /* Gris pour les tâches terminées */
+  }
